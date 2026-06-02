@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    background-color: white;
+    width: 60%;
+}
+
+.logo{
+    position: absolute;
+    left: 5%;
+}
+
+.rgttop{
+    color: rgb(86, 10, 12);
+    font-size:15px ;
+    font-weight: 400;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    position: absolute;
+    left: 61.5%;
+    bottom: 90%;
+    
+
+
+    
+}
+.rgttop span{
+
+    font-family:  ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 400;
+    font-size:15px ;
+    position: absolute;
+    right: 0.5%;
+    top: 10%;
+}
+
+.h21{
+    position: absolute;
+    left: 20%;
+    color: rgb(86, 10, 12);
+    top: 3%;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size:40px;
+    font-weight: 400;
+    line-height: 37px;
+    margin-bottom: 200px;
+}
+
+.txtimg{
+    position: absolute;
+    width: 110px;
+    right: 80px;
+    
+    
+    
+        
+}
+span{
+    margin-left: 69px;
+    font-size: 40px;
+   
+
+}
+
+.h22{
+    position: absolute;
+    left: 28%;
+     top:94px;
+    color: rgb(172, 152, 150);
+    font-weight: 400;
+    font-size: 40px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 60px;
+}
+.vis{
+    position: relative;
+    bottom: 20px;
+    right: 68px;
+    color: rgb(86, 10, 12);
+}
+
+.side{
+    position: absolute;
+    top: 57%;
+    left: 7%;
+    text-decoration: underline;
+    color: rgb(86, 10, 12);
+}
+
+.para{
+    color: rgb(86, 10, 12);
+    font-size: 10px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" ;
+    position: absolute;
+    left: 28.5%;
+    top: 27%;
+    font-weight: 400;
+    line-height: 
+}
+
+.photo{
+    display: flex;
+    position: absolute;
+    left: 23.5%;
+    top: 36%;
+    
+   justify-content: center;
+
+}
+.photo img{
+    height: 200px;
+    border-radius: 20px;
+    
+    
+}
+.footer{
+    position:relative;
+    top:75%;
+    left: 15.5%;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" ;
+    position: absolute;
+    font-weight: 400;
+    line-height: 30px;
+
+    
+}
+
+.f1{
+    color: rgb(86, 10, 12);
+    position: absolute;
+    left: 7%;
+    
+
+}
+
+.f2{
+    color: rgb(172, 152, 150);
+    
+    position: absolute;
+    left: 54%;
+    
+    
+}
+
+.f3{
+    color: rgb(172, 152, 150);
+    line-height: 50px;
+    
+}
+.f4{
+    color: rgb(86, 10, 12);
+    margin-left: -1px;
+}
+
+
+
+
+.para2{
+    color: rgb(86, 10, 12);
+    font-weight: 400;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" ;
+    font-size: 11px;
+    line-height: 15px;
+    position: absolute;
+    left: 22%;
+    top: 150%;
+
+}
+
+
+
+.para2 :nth-child(2){
+    margin-left: 8px; 
+}
+
+.para2 :nth-child(3){
+    margin-left: 20px;
+}
+
+
+
+
