@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+.one {
+    height: 100%;
+    width: 50%;
+    background-color: rgb(254, 254, 254);
+}
+
+.o1 {
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    top: 30px;
+    gap: 10%;
+    left: 10%;
+
+}
+
+.o1 h1 {
+    position: relative;
+    right: 70px;
+    bottom: 8px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 640;
+}
+
+.o1 input {
+    
+
+    top: 3px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-right: 90px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.o1 img{
+    position: absolute;
+    top: 10px;
+    right: 220px;
+
+}
+
+.o2 {
+    position: absolute;
+    top: 50%;
+    right: 80%;
+}
+
+.o2 h1 {
+
+    transform: rotate(-90deg);
+    font-size: 60px;
+    font-weight: 540;
+    color: rgb(18, 52, 43);
+    font-style: oblique;
+}
+
+.o3 {
+    position: absolute;
+    left: 22%;
+    top: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+.o3 .p1 {
+    position: relative;
+    font-weight: 500;
+
+
+}
+
+.p1::before {
+    content: "";
+    position: absolute;
+    right: 118px;
+    top: 10px;
+    width: 8px;
+    height: 8px;
+    background-color: rgb(184, 56, 50);
+    border-radius: 50%;
+}
+ 
+
+
+.o3 .line1 {
+    
+    position: absolute;
+    top: 15%;
+    background-color: rgb(171, 168, 168);
+    height: 0.5px;
+    width: 150px;
+}
+.o3 .line2 {
+    
+    position: absolute;
+    top: 33%;
+    
+    background-color: rgb(171, 168, 168);
+    height: 0.5px;
+    width: 150px;
+}
+.o3 .line3 {
+    position: absolute;
+    top: 50%;
+    background-color: rgb(171, 168, 168);
+    height: 0.5px;
+    width: 150px;
+}
+.o3 .line4 {
+    
+    position: absolute;
+    top: 67.5%;
+    background-color: rgb(171, 168, 168);
+    height: 0.5px;
+    width: 150px;
+}
+.o3 .line5 {
+    
+    position: absolute;
+    top: 85%;
+    background-color: rgb(171, 168, 168);
+    height: 0.5px;
+    width: 150px;
+}
+
+
+
+.image {
+    position: absolute;
+    left: 40.5%;
+    top: 3px;
+    transform: translateY(20%);
+
+}
+
+.two {
+    height: 100%;
+    width: calc(100% - 50%);
+    background-color: rgb(188, 60, 48);
+}
+
+.t1 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30px;
+    font-size: 15px;
+    color: white;
+    font-weight: 100;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.two h1 {
+    color: rgb(240, 239, 237);
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    line-height: 50px;
+    position: absolute;
+    top: 22%;
+    left: 68%;
+    font-style: normal;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.t2 {
+    position: absolute;
+    left: 75.5%;
+    top: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+
+
+}
+
+.t2 p {
+    position: relative;
+    left: 45px;
+    bottom: 38px;
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
+
+
+.t2 .line {
+
+    position: absolute;
+    bottom: 2px;
+    top: 19px;
+    right: 105px;
+
+    height: 130px;
+    width: 0.5px;
+    background-color: rgb(250, 210, 205);
+}
+
+.t3 {
+    position: absolute;
+    top: 42.5%;
+    left: 68%;
+}
+
+.t3 h4 {
+    position: relative;
+    left: 10px;
+    top: 2px;
+    color: rgb(250, 210, 205);
+}
+
+.t4 {
+    position: absolute;
+    top: 70%;
+}
+
+.t4 h1 {
+    position: relative;
+    left: 280px;
+    bottom: 20px;
+    font-size: 35px;
+    color: rgb(248, 209, 173);
+    font-weight: 600;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.t4 div {
+    position: relative;
+
+    display: flex;
+    gap: 10px;
+    left: 280px;
+    color: rgb(255, 225, 222);
+    font-size: 15px;
+
+}
+
+.t4 div :nth-child(1) {
+    border: none;
+    background-color: rgb(188, 60, 48);
+
+}
+
+.t4 p {
+    position: relative;
+    top: 5px;
+    font-weight: 400;
+
+}
+
+.t4 .mainbtn {
+    position: relative;
+    left: 280px;
+    top: 12px;
+    background-color: rgb(218, 188, 146);
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 10px;
+    border: none;
+    font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+
+}
