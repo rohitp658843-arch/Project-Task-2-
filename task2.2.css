@@ -1,0 +1,467 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width:95%;
+    background-color: rgb(14, 25, 36);
+    color: white;
+    
+   
+    
+   
+
+   
+    
+}
+
+
+
+nav{
+    background-color: rgb(14, 25, 36);
+    width: 100%;
+    
+    
+    position: absolute;
+     right: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+
+}
+
+#part1{
+    position: relative;
+    right: 40px;
+    
+    line-height: 25px;
+    
+
+
+}
+#part1 :nth-child(2){
+     color: rgb(240, 239, 237);   
+     font-weight: bolder;
+     font-size: 25px;
+     transform: scaleY(1.8);
+     
+}      
+
+#part1 :nth-child(1){
+    
+    font-size: 10px;
+    font-style: normal;
+    color: rgb(108, 142, 172);
+}
+
+#part2{
+    color: rgb(115, 123, 130);
+    font-size: 7.5px;
+    line-height: 13px;
+    
+    position: relative;
+    right: 260px;
+    top: 15px;
+    
+}
+
+#part3{
+    color: rgb(115, 123, 130) ;
+    font-size: 7.5px;
+    font-weight: 50;
+    line-height: 13px;
+    
+    position: relative;
+    top:21px;
+    right: 28.5%;
+}
+
+
+#btn  button{
+    background-color: rgb(14, 25, 36);
+    color: white;
+    font-weight: 400;
+    font-size: 7px;
+    background: none;
+    border: 1px solid rgb(67, 65, 65);
+    border-radius: 6px;
+    padding-right: 30px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+    right: 570px;
+    top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+ 
+#btn img{
+    position: relative;    
+   left: 25px;
+
+}
+#line{
+    width: 0.1px;
+    height: 50px;
+    background-color: rgb(62, 62, 62);
+    position: absolute;
+    right: 65% ;
+    top: 22px;
+}
+
+#top{
+    display: flex;
+    
+    
+    gap: 15px;
+    position: relative;
+    top: 10.5%;
+    left: 4.3%;
+    
+    
+    
+}
+
+.bigcard{
+    width: 21.2%;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+    height: 260px;
+}
+
+.bigcard img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text{
+    position: absolute;
+    top: 18%;
+    right: 19px;
+    transform: translateY(-50%);
+    line-height: 14px;
+    
+}
+.text h2{
+    margin-bottom: 10px;
+}
+
+.pricebox{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.pricebox img{
+    border: 0.5px solid rgb(67,65,65) ;
+   border-radius: 50%;
+   width: 30px;
+   background-color: rgb(14, 25, 36);
+   opacity: 0.8;
+}
+
+.card2{
+    width: 10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;  
+}
+
+.card2 img{
+    width: 100%;
+    height: 200px;
+}
+
+.cardcontent{
+    font-size: 7px;
+    padding: 5px;
+   
+    padding-bottom: 10px;
+    padding-left: 10px;
+    line-height: 11px;
+}
+
+.cardcontent h3{
+    margin-bottom: 3px;
+    
+}
+
+.cardcontent p{
+    color: white;
+    margin-bottom: 3px;
+}
+.card3{
+    width: 10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+    
+
+    
+}
+
+.card3 img{
+    width: 100%;
+    height: 200px;
+}
+
+
+
+.card4{
+    width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+    
+
+    
+}
+
+.card4 img{
+    width: 100%;
+    height: 200px;
+}
+
+
+#bottom{
+    display: flex;
+    gap: 15px;
+    position: relative;
+    left: 4.3%;
+    top: 11.5%;
+     
+}
+.card5{
+    width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+
+.card5 img{
+    width: 100%;
+    height: 200px;
+}
+.card6{
+     width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card6 img{
+    width: 100%;
+    height: 200px;
+}
+.card7{
+    width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card7 img{
+    width: 100%;
+    height: 200px;
+}
+.card8{
+     width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.card8 img{
+    width: 100%;
+    height: 200px;
+}
+.card9{
+     width:10%;
+    background: rgb(34, 54, 72);
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.card9 img{
+    width: 100%;
+    height: 200px;
+}
+
+
+#f1{
+    color: lightgrey;
+    padding: 10px;
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+
+    position: relative;
+    top: 12.5%;
+    left: 4.5%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgb(15, 32, 47);
+   
+    
+}
+
+#f1 .one{
+    font-size: 8px;
+
+}
+
+#f1 :nth-child(3) div{
+    position: relative;
+    right: 40px;
+}
+
+#f1 :nth-child(3) img{
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+}
+
+#f1 :nth-child(3){
+    position: relative;
+    left: px;
+}
+    
+     
+
+
+
+
+.one :nth-child(3){
+    color: rgb(115, 123, 130);
+}
+.one :nth-child(2){
+   padding-bottom: 4px;
+}
+
+#f1 .line1{
+    width: 0.1px;
+   height: 39px;
+   background-color: rgb(62, 62, 62);
+   position: absolute;
+    
+   top: 13px;
+   left:25% ;
+
+}
+#f1 .line2{
+   width: 0.1px;
+   height: 39px;
+   background-color: rgb(62, 62, 62);
+   position: absolute;
+   left: 79%;
+   top: 13px;
+}
+#f1 .line3{
+    width: 0.1px;
+   height: 39px;
+   background-color: rgb(62, 62, 62);
+   position: absolute;
+   left: 51%;
+   
+   top: 13px;
+}
+#f1 .one{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+#f2{
+   border: 1px solid grey;
+   color: lightgrey;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: relative;
+   top: 13%;
+   width: 54%;
+   left: 4.5%;
+   font-size: 10px;
+   padding: 10px;
+   background-color: rgb(15, 32, 47);
+
+}
+
+#f2 .f22{
+    display: flex;
+
+    gap: 15px;
+
+}
+
+.f21{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 14px;
+    
+}
+
+.f21 img{
+   position: absolute; 
+   left: 40px;
+   top: 5px;
+   
+}
+
+.f21 .img1{
+    position: absolute;
+    left: 0px;
+}
+.f21 h4{
+    position: relative;
+    left: 48px;
+    bottom: 10px;
+    font-size: 9px;
+}
+
+.f21 div{
+    position: absolute;
+    left: 41px;
+    bottom: 7px;
+    font-size: 9px;
+    
+}
+
+.f22{
+    position: relative;
+    left: 30px;
+}
+.f23{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.f23 div{
+    display: flex;
+    gap: 10px;
+}
+
+
